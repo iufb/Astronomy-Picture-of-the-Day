@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-datetime-edit {
+  @apply px-4 py-4 bg-baseColor dark:bg-white text-3xl   font-neueu flex items-center justify-center cursor-pointer;
+}
+::-webkit-datetime-edit-fields-wrapper {
+  @apply  px-4 py-3;
+}
+::-webkit-datetime-edit-text {
+  @apply text-white dark:text-baseColor;
+}
+::-webkit-datetime-edit-month-field {
+  @apply text-white dark:text-baseColor;
+}
+::-webkit-datetime-edit-day-field {
+  @apply text-white dark:text-baseColor;
+}
+::-webkit-datetime-edit-year-field {
+  @apply text-white dark:text-baseColor;
+}
+::-webkit-inner-spin-button {
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  @apply py-7 bg-baseColor dark:bg-white  fill-baseColor dark:fill-white  text-4xl cursor-pointer;
+}
+@layer components {
+  .center {
+    @apply flex items-center justify-center;
+  }
+  .text{
+  @apply font-neueu dark:text-white text-baseColor
+  }
+}
+html,
+body {
+  background: #000;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+svg{
+   @apply fill-baseColor dark:fill-white 
+  }

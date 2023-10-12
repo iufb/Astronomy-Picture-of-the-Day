@@ -1,4 +1,4 @@
-[Astronomy Picture of a Day!](https://i.imgur.com/Ms6iX3o.png)
+![Astronomy Picture of a Day!](https://i.imgur.com/Ms6iX3o.png)
 
 ### Project Overview
 

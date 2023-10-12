@@ -1,4 +1,4 @@
-![Astronomy Picture of a Day!]('./images/apofday.png')
+![Astronomy Picture of a Day!]('/images/apofday.png')
 
 ### Project Overview
 
